@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gift Card Registration</title>
+  <link rel='stylesheet' href='./bussiness.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="../generalFunctions/category.js"></script>
+  <style>
+  
+   </style>
+ 
+</head>
+<body>
+  <h1>Gift Card Registration</h1>
+
+
+  <form id="regist">
+    <label for="businessName">Business Name:</label>
+    <input type="text" id="businessName" name="businessName" required><br>
+    
+    <label for="cardAmount">Card Amount:</label>
+    <input type="number" id="cardAmount" name="cardAmount"  min="50" step="50" required onblur="validateAmount()"><br>
+    
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    <label for="categoryList">Category</label>
+    <input type="text" id="categoryInput" list="categoryList"  autocomplete="off"  required>
+    <datalist id="categoryList"></datalist>
+
+    <label for="description">Short Description:</label>
+    <textarea id="description" name="description" required></textarea><br>
+    
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" required><br>
+    
+    <label for="years">length of service:</label>
+    <input type="number" id="years" name="years" required><br>
+
+
+    <label for="image">Upload Picture:</label>
+    <input type="file" id="image" name="image" accept="image/*" onchange="previewImage(event)"><br>
+    <img id="imagePreview" src="" alt="Preview" style="max-width: 200px;"><br>
+    
+    <input type="submit" value="Register">
+  </form>
+  <div class="sidebar">
+    <img src="../pictures/צילום מסך 2023-07-25 212418.png" alt="Your Image" width="5cm" height="5cm">
+    <h3>Register as a Business Card</h3>
+    <p>
+      Register your business as a card and expose it to a wide audience! Our platform acts as a virtual branch, allowing customers to discover and engage with your business. Don't miss out on the opportunity to increase your reach and attract new customers. Join us today!
+    </p>
+    <h3>Add a Missing Category</h3>
+    <div class="input-container">
+      <input id="add-category" type="text" class="category-input" placeholder="Enter category...">
+    </div>
+    <button  class="add-button" onclick="addCategory()">Add</button>
+  </div>
+</body>
+<script src="bussines.js"></script>
+</html>

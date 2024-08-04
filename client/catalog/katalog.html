@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gift Card Catalog</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel='stylesheet' href='./katalog.css'>
+  <script src="../generalFunctions/getUser.js"></script>
+  <script src="../generalFunctions/send-email.js"></script>
+  <script src="../generalFunctions/getBussiness.js"></script>
+  <script src="../generalFunctions/category.js"></script>
+  <script src = "./createKatalog.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('../pictures/צילום\ מסך\ 2023-07-25\ 212418.png');
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+  </style>
+  <script src="./katalog.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="links">
+      <a href="../homepage/homepage.html">Home</a>
+      <a href="../login/login.html">log-in</a>
+      <a href="../signin/signin.html">sign-in</a>
+      <a href="../catalog/katalog.html">Catalog</a>
+      <a href="../package/package.html">Package</a>
+    </div>
+    <h1>Our Gift Card Catalog</h1>
+  </div>
+    <div class="search-bar">
+      
+      <div class='search-kit'>
+        <input type="text" id="categoryInput" list="categoryList" class="search-input" autocomplete="off"
+          placeholder="Category" required>
+        <datalist id="categoryList"></datalist>
+        <button id="searchButton-amount" class="search-button" onclick="showByCategory()">
+          <img src="../pictures/OIP (54).jpg" alt="Search" style=" height:0.45cm; width: 0.45cm;">
+        </button>
+      </div>
+      <div class="search-kit">
+        <input type="text" id="maxAmount" class="search-input" placeholder="Maximum Amount">
+        <button id="searchButton-amount" class="search-button" onclick="showUnderThen()">
+          <img src="../pictures/OIP (54).jpg" alt="Search" style=" height:0.45cm; width: 0.45cm;">
+        </button>
+      </div>
+      <div class="search-kit">
+        <input type="text" id="businessName" class="search-input" placeholder="Business Name">
+        <button id="searchButton-name" class="search-button" onclick="showByName()">
+          <img src="../pictures/OIP (54).jpg" alt="Search" style=" height:0.45cm; width: 0.45cm;">
+        </button>
+      </div>
+      <button id="showAllButton" class="with-search-button"  onclick="showAllCards()">Show All</button>
+    </br>
+    <button id="search-by-details" class="with-search-button" onclick="showByDetails()" style="margin-left: 18px;">Filter by all</button>
+ 
+    </div>
+  
+  
+
+    
+
+  <div class="grid-container" id="gift-cards-container"></div>
+
+  <div class="bottom-bar">
+    <h2>Giving Is Love</h2>
+    <div id="sentences-container"></div>
+  </div>
+
+  <script>
+
+    // Cute sentences about giving gifts (displayed on the bottom bar)
+    var sentencesContainer = document.getElementById("sentences-container");
+    var sentences = [
+      "The joy of giving is immeasurable.",
+      "A gift from the heart is the best present of all.",
+      "The act of giving has the power to brighten someone's day.",
+      "Giving is an expression of love and gratitude.",
+      "Gifts are a thoughtful way to show appreciation."
+    ];
+
+    sentences.forEach(function (sentence) {
+      var sentenceDiv = document.createElement("div");
+      sentenceDiv.textContent = sentence;
+      sentencesContainer.appendChild(sentenceDiv);
+    });
+  </script>
+</body>
+
+
+</html>

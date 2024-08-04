@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "64e85af5c59ac45911af711e"
+  },
+  "name": "lfkbsf",
+  "email": "848@gmail.com",
+  "phone": "05205456098",
+  "picture": "msa.ico-1692948165435.jpg",
+  "location": "yrt n",
+  "short_descreption": "hn ryt",
+  "min_amount": 700,
+  "start_date": {
+    "$date": "2023-08-25T07:40:35.000Z"
+  },
+  "years": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e89a1586bc169258d0c65f"
+  },
+  "name": "sdfghj",
+  "email": "r0504126468@gmail.com",
+  "phone": "0504126468",
+  "picture": "mario-luigi-figures-funny-163157-e1506943845225.jpeg-1692965396987.jpg",
+  "location": "BB",
+  "short_descreption": "QWzxerctvybunimopiuiytreswaq3ws4ed5rf6tgyhu",
+  "min_amount": 50,
+  "start_date": {
+    "$date": "2023-08-25T12:09:56.000Z"
+  },
+  "years": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e89bf6edc3316e16dcc133"
+  },
+  "name": "banana",
+  "email": "ruthiedel867@gmail.com",
+  "phone": "0504126468",
+  "picture": "OIP (15).jpg-1692965878881.jpg",
+  "location": "jerusalem",
+  "short_descreption": "kdcj  ihh;sh dfih isidhffhsdf ",
+  "min_amount": 50,
+  "start_date": {
+    "$date": "2023-08-25T12:17:57.000Z"
+  },
+  "years": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e8b1f477549c2db1664151"
+  },
+  "name": "קידישיק",
+  "email": "ruthiedel877@gmail.com",
+  "phone": "0504126468",
+  "picture": "OIP (9).jpg-1692971507995.jpg",
+  "location": "jerusalem",
+  "short_descreption": "kdcj  ihh;sh dfih isidhffhsdf ",
+  "min_amount": 100,
+  "start_date": {
+    "$date": "2023-08-25T13:51:43.000Z"
+  },
+  "years": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eb58a70e22b2121b9f2fb4"
+  },
+  "name": "panda",
+  "email": "al0504126468@gmail.com",
+  "phone": "0504126468",
+  "picture": "life-insurance-logo-design.png-1693145255568.jpg",
+  "location": "גכעי",
+  "short_descreption": "כוטעוןיןםחפםלולכא",
+  "min_amount": 150,
+  "start_date": {
+    "$date": "2023-08-27T14:07:35.000Z"
+  },
+  "years": 5,
+  "__v": 0
+}]

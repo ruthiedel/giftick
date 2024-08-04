@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    background-color: #ff05cd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    right: 0;
+    height: 100vh;
+    width: 8cm;
+    background-color: black;
+    color: #ff05cd;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .sidebar img {
+    width: 5cm;
+    height: 5cm;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:white;
+  }
+  
+  .sidebar p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .input-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .category-input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .add-button {
+    width: 50%;
+    padding: 5px;
+    background-color: #ff05cd;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }

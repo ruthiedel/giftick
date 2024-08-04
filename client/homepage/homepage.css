@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #e0289d;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333333;
+    margin: 0;
+  }
+  
+  .logo {
+    height: 200px;
+    width:100%;
+    background-color: #000000;
+    /* Add your logo image or placeholder here */
+  }
+#logo{
+  height:90%;
+  width:17%;
+  margin-top:10px;
+}
+#catalog{
+  display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 20px;
+    width:20%;
+    text-decoration: none;
+    background-color: #e0289d;
+    color: #030303;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #e0289d;
+    color: #030303;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  /* #catalog:hover{
+    background-color: #012bfe;
+    color:#ff0bba;
+    border: black 2px solid;
+  } */
+  .button:hover {
+    background-color: #000000;
+    color:#ff0bba;
+    border: black 2px solid;
+  }
+  
+  .main-content {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .site-section {
+    padding: 40px;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  #contain-home-picture{
+    width:60%;
+    text-align: center;
+    height:500px;
+    margin-bottom: 100px;
+  }
+  #contain-about{
+    /* border:#000000 3px solid; */
+    width:70%;
+    margin-left: 15%;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  h2 {
+    color: #333333;
+  }
+  
+  p {
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  footer p{
+    color:#ff0bba;
+  }
+  .bottom-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bottom-bar button {
+    margin: 10px;
+    color: #ff0bba;
+    text-decoration: none;
+  }
+  
